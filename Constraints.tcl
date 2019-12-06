@@ -40,7 +40,7 @@
 # Specify a 5000ps clock period with 50% duty cycle     
 # and a skew of 50ps                                 
 #---------------------------------------------------------
- set CLK_PER  5
+ set CLK_PER  2.5683
  set CLK_SKEW 0.05
  create_clock -name $clkname -period $CLK_PER -waveform "0 [expr $CLK_PER / 2]" $clkname
  set_clock_uncertainty $CLK_SKEW $clkname

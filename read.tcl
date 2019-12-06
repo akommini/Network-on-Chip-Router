@@ -19,7 +19,7 @@
 # latches                                            
 #---------------------------------------------------------
 
-if 0{
+
 read_verilog top_router.v
 read_verilog syn_fifo.v
 read_verilog routing_table.v
@@ -27,5 +27,3 @@ read_verilog router_vcarb.v
 read_verilog router_swarb.v
 read_verilog ram_dp_ar_aw.v
 read_verilog controller.v
-}
-read_verilog gshare.v

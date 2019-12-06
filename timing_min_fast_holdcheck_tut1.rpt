@@ -1,4 +1,182 @@
 Information: Updating graph... (UID-83)
+Information: Timing loop detected. (OPT-150)
+	U325/B1 U325/ZN U335/A U335/ZN U319/A U319/ZN U318/A U318/ZN I_vc0_controller/U79/A2 I_vc0_controller/U79/ZN north_arbiter/U84/A north_arbiter/U84/ZN north_arbiter/U10/A1 north_arbiter/U10/ZN north_arbiter/U38/A north_arbiter/U38/ZN north_arbiter/U94/A1 north_arbiter/U94/ZN north_arbiter/U95/A1 north_arbiter/U95/ZN north_arbiter/U3/A1 north_arbiter/U3/ZN north_arbiter/U96/A1 north_arbiter/U96/ZN 
+Information: Timing loop detected. (OPT-150)
+	north_arbiter/U73/A1 north_arbiter/U73/ZN north_arbiter/U1/A1 north_arbiter/U1/ZN north_arbiter/U22/A1 north_arbiter/U22/ZN U325/B2 U325/ZN U335/A U335/ZN U319/A U319/ZN U318/A U318/ZN I_vc0_controller/U79/A2 I_vc0_controller/U79/ZN north_arbiter/U84/A north_arbiter/U84/ZN north_arbiter/U10/A1 north_arbiter/U10/ZN north_arbiter/U38/A north_arbiter/U38/ZN north_arbiter/U94/A1 north_arbiter/U94/ZN north_arbiter/U95/A1 north_arbiter/U95/ZN north_arbiter/U3/A1 north_arbiter/U3/ZN north_arbiter/U96/A1 north_arbiter/U96/ZN U326/B1 U326/ZN U328/A U328/ZN I_vc1_controller/U79/A2 I_vc1_controller/U79/ZN north_arbiter/U67/A north_arbiter/U67/ZN north_arbiter/U15/A1 north_arbiter/U15/ZN north_arbiter/U31/A1 north_arbiter/U31/ZN north_arbiter/U48/A1 north_arbiter/U48/ZN 
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc0_controller/U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc1_controller/U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc1_controller/U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'W_vc1_controller/U50'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B1' and 'ZN' on cell 'U326'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc1_controller/U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc0_controller/U79'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'ZN' on cell 'S_vc1_controller/U76'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'ZN' on cell 'north_arbiter/U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc1_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc1_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc1_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'south_arbiter/U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc0_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc0_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'W_vc0_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc1_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A4' and 'ZN' on cell 'W_vc1_controller/U51'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc0_controller/U75'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'south_arbiter/U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc1_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc1_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc1_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc1_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A4' and 'ZN' on cell 'W_vc1_controller/U53'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'east_arbiter/U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc0_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc0_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc0_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'W_vc0_controller/U97'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'ZN' on cell 'U778'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'west_arbiter/U46'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc1_controller/U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc1_controller/U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc1_controller/U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc1_controller/U73'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A4' and 'ZN' on cell 'W_vc1_controller/U55'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'I_vc0_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'I_vc0_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'east_arbiter/U84'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'ZN' on cell 'west_arbiter/U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'I_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'I_vc1_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'I_vc1_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'N_vc0_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'N_vc0_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'N_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'N_vc1_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'N_vc1_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'S_vc0_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'S_vc0_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'S_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'S_vc1_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'S_vc1_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'E_vc0_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'E_vc0_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'E_vc1_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'E_vc1_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'E_vc1_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'W_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'W_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'W_vc0_controller/router0/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'W_vc0_controller/router0/U7'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'W_vc0_controller/router0/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'W_vc1_controller/router0/U5'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'W_vc1_controller/router0/U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'ZN' on cell 'W_vc1_controller/router0/U13'
+         to break a timing loop. (OPT-314)
 Information: Updating design information... (UID-85)
  
 ****************************************
@@ -6,31 +184,46 @@ Report : timing
         -path full
         -delay min
         -max_paths 1
-Design : gshare
+Design : top_router
 Version: E-2010.12-SP5-2
-Date   : Tue Apr 12 17:43:07 2016
+Date   : Thu Jul  7 15:21:01 2016
 ****************************************
 
 Operating Conditions: fast   Library: NangateOpenCellLibrary
 Wire Load Model Mode: top
 
-  Startpoint: prdbit_reg (rising edge-triggered flip-flop)
-  Endpoint: prdbit (output port)
-  Path Group: (none)
+  Startpoint: E_wr_en_reg[0]
+              (rising edge-triggered flip-flop clocked by Clk)
+  Endpoint: E_wr_en_reg[0]
+            (rising edge-triggered flip-flop clocked by Clk)
+  Path Group: Clk
   Path Type: min
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  gshare             5K_hvratio_1_1        NangateOpenCellLibrary
+  top_router         5K_hvratio_1_1        NangateOpenCellLibrary
 
   Point                                    Incr       Path
   -----------------------------------------------------------
-  prdbit_reg/CK (DFF_X1)               0.000000   0.000000 r
-  prdbit_reg/Q (DFF_X1)                0.054598   0.054598 r
-  prdbit (out)                         0.033346   0.087943 r
-  data arrival time                               0.087943
+  clock Clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  E_wr_en_reg[0]/CK (DFFR_X1)            0.0000     0.0000 r
+  E_wr_en_reg[0]/QN (DFFR_X1)            0.0376     0.0376 f
+  U666/ZN (NAND2_X1)                     0.0222     0.0599 r
+  E_wr_en_reg[0]/D (DFFR_X1)             0.0091     0.0690 r
+  data arrival time                                 0.0690
+
+  clock Clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clock uncertainty                      0.0500     0.0500
+  E_wr_en_reg[0]/CK (DFFR_X1)            0.0000     0.0500 r
+  library hold time                      0.0025     0.0525
+  data required time                                0.0525
   -----------------------------------------------------------
-  (Path is unconstrained)
+  data required time                                0.0525
+  data arrival time                                -0.0690
+  -----------------------------------------------------------
+  slack (MET)                                       0.0165
 
 
 1

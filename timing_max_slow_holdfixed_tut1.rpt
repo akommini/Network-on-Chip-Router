@@ -4,31 +4,102 @@ Report : timing
         -path full
         -delay max
         -max_paths 1
-Design : gshare
+Design : top_router
 Version: E-2010.12-SP5-2
-Date   : Tue Apr 12 17:43:08 2016
+Date   : Thu Jul  7 15:21:06 2016
 ****************************************
 
 Operating Conditions: slow   Library: NangateOpenCellLibrary
 Wire Load Model Mode: top
 
-  Startpoint: prdbit_reg (rising edge-triggered flip-flop)
-  Endpoint: prdbit (output port)
-  Path Group: (none)
+  Startpoint: S_vc1_controller/next_hop_reg[2]
+              (rising edge-triggered flip-flop clocked by Clk)
+  Endpoint: W_vc0_controller/state_reg[0]
+            (rising edge-triggered flip-flop clocked by Clk)
+  Path Group: Clk
   Path Type: max
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  gshare             5K_hvratio_1_1        NangateOpenCellLibrary
+  top_router         5K_hvratio_1_1        NangateOpenCellLibrary
 
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  prdbit_reg/CK (DFF_X1)               0.000000   0.000000 r
-  prdbit_reg/Q (DFF_X1)                0.367255   0.367255 r
-  prdbit (out)                         0.033346   0.400600 r
-  data arrival time                               0.400600
-  -----------------------------------------------------------
-  (Path is unconstrained)
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock Clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  S_vc1_controller/next_hop_reg[2]/CK (DFFR_X1)         0.0000     0.0000 r
+  S_vc1_controller/next_hop_reg[2]/Q (DFFR_X1)          0.2923     0.2923 f
+  S_vc1_controller/U12/ZN (OR3_X1)                      0.3851     0.6774 f
+  S_vc1_controller/U76/ZN (NOR3_X1)                     0.2260     0.9034 r
+  S_vc1_controller/N_vc_arb_req (node_controller_5)     0.0000     0.9034 r
+  north_arbiter/Port_vc1_arb_req[7] (router_vcarb_0)    0.0000     0.9034 r
+  north_arbiter/U107/ZN (INV_X1)                        0.0801     0.9835 f
+  north_arbiter/U82/ZN (NAND4_X1)                       0.0928     1.0763 r
+  north_arbiter/U74/ZN (INV_X1)                         0.0552     1.1316 f
+  north_arbiter/U19/ZN (AND2_X1)                        0.1246     1.2561 f
+  north_arbiter/U75/ZN (NAND3_X1)                       0.0886     1.3447 r
+  north_arbiter/U1/ZN (AND2_X2)                         0.1091     1.4538 r
+  north_arbiter/U22/ZN (NAND4_X1)                       0.0967     1.5505 f
+  north_arbiter/Port_vc1_usage (router_vcarb_0)         0.0000     1.5505 f
+  U326/ZN (OAI21_X1)                                    0.2032     1.7536 r
+  U329/ZN (INV_X1)                                      0.0800     1.8337 f
+  N_vc0_controller/N_usage (node_controller_8)          0.0000     1.8337 f
+  N_vc0_controller/U79/ZN (NOR3_X2)                     0.2282     2.0619 r
+  N_vc0_controller/N_vc_arb_req (node_controller_8)     0.0000     2.0619 r
+  north_arbiter/Port_vc0_arb_req[3] (router_vcarb_0)    0.0000     2.0619 r
+  north_arbiter/U20/ZN (NOR2_X1)                        0.0594     2.1213 f
+  north_arbiter/U10/ZN (NAND2_X1)                       0.0930     2.2143 r
+  north_arbiter/U38/ZN (INV_X1)                         0.0505     2.2648 f
+  north_arbiter/U94/ZN (NAND3_X1)                       0.0759     2.3408 r
+  north_arbiter/U95/ZN (NAND2_X1)                       0.0608     2.4016 f
+  north_arbiter/U3/ZN (NOR3_X1)                         0.1508     2.5524 r
+  north_arbiter/U96/ZN (NAND4_X1)                       0.1362     2.6886 f
+  north_arbiter/Port_vc0_usage (router_vcarb_0)         0.0000     2.6886 f
+  U325/ZN (OAI21_X1)                                    0.1811     2.8697 r
+  U327/ZN (INV_X1)                                      0.1254     2.9951 f
+  N_vc1_controller/N_usage (node_controller_7)          0.0000     2.9951 f
+  N_vc1_controller/U68/ZN (OAI21_X1)                    0.1671     3.1621 r
+  N_vc1_controller/U73/ZN (NOR3_X2)                     0.0702     3.2323 f
+  N_vc1_controller/W_vc_arb_req (node_controller_7)     0.0000     3.2323 f
+  west_arbiter/Port_vc1_arb_req[4] (router_vcarb_1)     0.0000     3.2323 f
+  west_arbiter/U45/ZN (INV_X1)                          0.0990     3.3312 r
+  west_arbiter/U47/ZN (NAND3_X1)                        0.1190     3.4502 f
+  west_arbiter/U48/ZN (INV_X1)                          0.1521     3.6023 r
+  west_arbiter/U60/ZN (NAND3_X1)                        0.1171     3.7194 f
+  west_arbiter/U61/ZN (NAND4_X1)                        0.1197     3.8391 r
+  west_arbiter/Port_vc1_usage (router_vcarb_1)          0.0000     3.8391 r
+  U779/ZN (NOR2_X1)                                     0.0546     3.8937 f
+  U783/ZN (NOR2_X1)                                     0.1351     4.0289 r
+  I_vc0_controller/W_usage (node_controller_1)          0.0000     4.0289 r
+  I_vc0_controller/U10/ZN (NOR2_X2)                     0.0760     4.1049 f
+  I_vc0_controller/W_vc_arb_req (node_controller_1)     0.0000     4.1049 f
+  west_arbiter/Port_vc0_arb_req[0] (router_vcarb_1)     0.0000     4.1049 f
+  west_arbiter/U46/ZN (NOR2_X2)                         0.1656     4.2705 r
+  west_arbiter/U97/ZN (NAND4_X1)                        0.1293     4.3998 f
+  west_arbiter/U98/ZN (INV_X1)                          0.1073     4.5071 r
+  west_arbiter/U15/ZN (AND3_X2)                         0.1813     4.6884 r
+  west_arbiter/U14/ZN (AND4_X1)                         0.2574     4.9458 r
+  west_arbiter/Port_vc0_arb_grant[12] (router_vcarb_1)
+                                                        0.0000     4.9458 r
+  W_vc0_controller/W_vc_arb_gnt (node_controller_2)     0.0000     4.9458 r
+  W_vc0_controller/U85/ZN (INV_X1)                      0.0524     4.9982 f
+  W_vc0_controller/U87/ZN (NAND4_X1)                    0.0801     5.0783 r
+  W_vc0_controller/U88/ZN (NAND2_X1)                    0.0825     5.1608 f
+  W_vc0_controller/U102/ZN (NAND3_X1)                   0.0848     5.2456 r
+  W_vc0_controller/state_reg[0]/D (DFFR_X1)             0.0088     5.2543 r
+  data arrival time                                                5.2543
+
+  clock Clk (rise edge)                                 2.5683     2.5683
+  clock network delay (ideal)                           0.0000     2.5683
+  clock uncertainty                                    -0.0500     2.5183
+  W_vc0_controller/state_reg[0]/CK (DFFR_X1)            0.0000     2.5183 r
+  library setup time                                   -0.0853     2.4330
+  data required time                                               2.4330
+  --------------------------------------------------------------------------
+  data required time                                               2.4330
+  data arrival time                                               -5.2543
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -2.8213
 
 
 1

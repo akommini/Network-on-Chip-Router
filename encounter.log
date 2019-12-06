@@ -1,0 +1,69 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 11.0 license checkout succeeded.
+You can run 2 CPU jobs with the base license that is currently checked out.
+If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+**ERROR: (ENCOAX-124):	OA installation is older than the one this Encounter version was built with. To use the OA installation built and tested with this Encounter version you should unset the shell variable OA_HOME, or point OA_HOME to a 'p002' or higher version of OA and rerun.
+**ERROR: (ENCOAX-332):	Failed to initialize OA database. OA related commands can not be run. Refer to any earlier error messages.
+INFO: OA features are disabled in this session.
+
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2011.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v11.10-p003_1 (64bit) 12/06/2011 08:21 (Linux 2.6)
+@(#)CDS: NanoRoute v11.10-p002 NR111104-0955/11_10_RTM-UB (database version 2.30, 132.4.1) {superthreading v1.16}
+@(#)CDS: CeltIC v11.10-p003_1 (64bit) 11/29/2011 02:58:11 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 11.10-p002 (64bit) 12/06/2011 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 11.10-p003_1 (64bit) Nov 28 2011 21:44:35 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v11.10-p002
+--- Starting "Encounter v11.10-p003_1" on Thu Jul  7 15:22:23 2016 (mem=60.2M) ---
+--- Running on vlsicad1.ecs.umass.edu (x86_64 w/Linux 2.6.18-409.el5) ---
+This version was compiled on Tue Dec 6 08:21:40 PST 2011.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-80 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+*** Memory pool thread-safe mode activated.
+<CMD> init_design
+**ERROR: (ENCOAX-124):	OA installation is older than the one this Encounter version was built with. To use the OA installation built and tested with this Encounter version you should unset the shell variable OA_HOME, or point OA_HOME to a 'p002' or higher version of OA and rerun.
+**ERROR: (ENCOAX-332):	Failed to initialize OA database. OA related commands can not be run. Refer to any earlier error messages.
+
+Loading Lef file /home/ece558_658_2014/lib/NangateOpenCellLibrary.lef...
+Set DBUPerIGU to M2 pitch 380.
+
+Power Planner/ViaGen version 8.1.46 promoted on 02/17/2009.
+viaInitial starts at Thu Jul  7 15:22:39 2016
+viaInitial ends at Thu Jul  7 15:22:39 2016
+**ERROR: (ENCSYT-16038):	'../top_router_final.v' not found.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+
+*** Memory Usage v#188 (Current mem = 346.305M, initial mem = 60.195M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=346.3M) ***
+**ERROR: (ENCSYC-300):	Cell top_router not found.
+**ERROR: (ENCVL-904):	Can't set top cell to "top_router" because it doesn't exist.  Exiting Encounter!
+
+*** Memory Usage v#188 (Current mem = 346.305M, initial mem = 60.195M) ***
+--- Ending "Encounter" (totcpu=0:00:02.1, real=0:00:25.0, mem=346.3M) ---

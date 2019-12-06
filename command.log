@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version E-2010.12-SP5-2 for linux -- Oct 29, 2011
-#@ # Date:   Tue Apr 12 17:42:58 2016
+#@ # Date:   Thu Jul  7 15:20:13 2016
 #@ # Run by: akommini@vlsicad1.ecs.umass.edu
 #@ 
 
@@ -4690,7 +4690,7 @@ source /usr/synopsys/E-2010.12-SP5-2/admin/setup/.synopsys_dc.setup
 #@ 
 #@ # -- End source /usr/synopsys/E-2010.12-SP5-2/admin/setup/.synopsys_dc.setup
 
-source /home/akommini/vlsix/lab3_partB/router/.synopsys_dc.setup
+source /home/akommini/vlsix/lab3_partB1/router/.synopsys_dc.setup
 #@ # rename as .synopsys_dc.setup 
 #@ 
 #@ # Search Path variables  
@@ -4705,20 +4705,20 @@ source /home/akommini/vlsix/lab3_partB/router/.synopsys_dc.setup
 #@ 
 #@ # Library Variables 
 #@ set synthetic_library [list dw_foundation.sldb]
-#@ set target_library NangateOpenCellLibrary_slow_ccs.db
+#@ set target_library NangateOpenCellLibrary_slow.db
 #@ set link_library   [concat  $target_library $synthetic_library]
 #@ 
 #@ set verilogout_no_tri "true"
 #@ 
-#@ # -- End source /home/akommini/vlsix/lab3_partB/router/.synopsys_dc.setup
+#@ # -- End source /home/akommini/vlsix/lab3_partB1/router/.synopsys_dc.setup
 
-source -echo -verbose /home/akommini/vlsix/lab3_partB/router/run_synth.tcl
+source -echo -verbose /home/akommini/vlsix/lab3_partB1/router/run_synth.tcl
 #@ source setup.tcl
 #@ # setup name of the clock in your design.
 #@ set clkname Clk
 #@ 
 #@ # set variable "modname" to the name of topmost module in design
-#@ set modname gshare
+#@ set modname top_router
 #@ 
 #@ # set variable "RTL_DIR" to the HDL directory w.r.t synthesis directory
 #@ set RTL_DIR .
@@ -4730,7 +4730,7 @@ source -echo -verbose /home/akommini/vlsix/lab3_partB/router/run_synth.tcl
 #@ set type tut1
 #@ 
 #@ #set the number of digits to be used for delay results
-#@ set report_default_significant_digits 6
+#@ set report_default_significant_digits 4
 #@ 
 #@ suppress_message "OPT-106"
 #@ suppress_message "UID-401"
@@ -4759,7 +4759,7 @@ source -echo -verbose /home/akommini/vlsix/lab3_partB/router/run_synth.tcl
 #@ # latches                                            
 #@ #---------------------------------------------------------
 #@ 
-#@ if 0{
+#@ 
 #@ read_verilog top_router.v
 #@ read_verilog syn_fifo.v
 #@ read_verilog routing_table.v
@@ -4767,8 +4767,6 @@ source -echo -verbose /home/akommini/vlsix/lab3_partB/router/run_synth.tcl
 #@ read_verilog router_swarb.v
 #@ read_verilog ram_dp_ar_aw.v
 #@ read_verilog controller.v
-#@ }
-#@ read_verilog gshare.v
 #@ # -- End source read.tcl
 
 #@ source Constraints.tcl
@@ -4814,7 +4812,7 @@ source -echo -verbose /home/akommini/vlsix/lab3_partB/router/run_synth.tcl
 #@ # Specify a 5000ps clock period with 50% duty cycle     
 #@ # and a skew of 50ps                                 
 #@ #---------------------------------------------------------
-#@ set CLK_PER  5
+#@ set CLK_PER  2.5683
 #@ set CLK_SKEW 0.05
 #@ create_clock -name $clkname -period $CLK_PER -waveform "0 [expr $CLK_PER / 2]" $clkname
 #@ set_clock_uncertainty $CLK_SKEW $clkname
