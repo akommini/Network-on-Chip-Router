@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : area
+Design : gshare
+Version: E-2010.12-SP5-2
+Date   : Tue Apr 12 17:43:03 2016
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/akommini/vlsix/lab3_partB/router/NangateOpenCellLibrary_slow_ccs.db)
+
+Number of ports:                           25
+Number of nets:                            62
+Number of cells:                           38
+Number of combinational cells:             33
+Number of sequential cells:                 5
+Number of macros:                           0
+Number of buf/inv:                          8
+Number of references:                       7
+
+Combinational area:         42.560000
+Noncombinational area:      22.609999
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:            65.169999
+Total area:                 undefined
+1

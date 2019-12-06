@@ -1,0 +1,96 @@
+ 
+****************************************
+Report : cell
+Design : gshare
+Version: E-2010.12-SP5-2
+Date   : Tue Apr 12 17:43:12 2016
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U37                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U38                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U39                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U40                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U41                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U42                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U43                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U44                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U45                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U46                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U47                       AOI221_X1       NangateOpenCellLibrary
+                                                          1.596000  
+U48                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U49                       AOI22_X1        NangateOpenCellLibrary
+                                                          1.330000  
+U50                       AOI221_X1       NangateOpenCellLibrary
+                                                          1.596000  
+U51                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U52                       AOI22_X1        NangateOpenCellLibrary
+                                                          1.330000  
+U53                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U54                       MUX2_X1         NangateOpenCellLibrary
+                                                          1.862000  
+U55                       XOR2_X1         NangateOpenCellLibrary
+                                                          1.596000  
+U56                       AOI221_X1       NangateOpenCellLibrary
+                                                          1.596000  
+U57                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U58                       AOI22_X1        NangateOpenCellLibrary
+                                                          1.330000  
+U59                       AOI221_X1       NangateOpenCellLibrary
+                                                          1.596000  
+U60                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U61                       AOI22_X1        NangateOpenCellLibrary
+                                                          1.330000  
+U62                       NOR2_X1         NangateOpenCellLibrary
+                                                          0.798000  
+U63                       NOR2_X1         NangateOpenCellLibrary
+                                                          0.798000  
+U64                       NOR2_X1         NangateOpenCellLibrary
+                                                          0.798000  
+U65                       NOR2_X1         NangateOpenCellLibrary
+                                                          0.798000  
+U66                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U67                       XOR2_X1         NangateOpenCellLibrary
+                                                          1.596000  
+U68                       INV_X1          NangateOpenCellLibrary
+                                                          0.532000  
+U69                       XOR2_X1         NangateOpenCellLibrary
+                                                          1.596000  
+prdbit_reg                DFF_X1          NangateOpenCellLibrary
+                                                          4.522000  n
+shfreg_reg[0]             DFF_X1          NangateOpenCellLibrary
+                                                          4.522000  n
+shfreg_reg[1]             DFF_X1          NangateOpenCellLibrary
+                                                          4.522000  n
+shfreg_reg[2]             DFF_X1          NangateOpenCellLibrary
+                                                          4.522000  n
+shfreg_reg[3]             DFF_X1          NangateOpenCellLibrary
+                                                          4.522000  n
+--------------------------------------------------------------------------------
+Total 38 cells                                            65.169999
+1

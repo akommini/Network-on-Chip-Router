@@ -1,0 +1,34 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : gshare
+Version: E-2010.12-SP5-2
+Date   : Tue Apr 12 17:43:12 2016
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: prdbit_reg (rising edge-triggered flip-flop)
+  Endpoint: prdbit (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gshare             5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  prdbit_reg/CK (DFF_X1)               0.000000   0.000000 r
+  prdbit_reg/Q (DFF_X1)                0.095005   0.095005 r
+  prdbit (out)                         0.033346   0.128350 r
+  data arrival time                               0.128350
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

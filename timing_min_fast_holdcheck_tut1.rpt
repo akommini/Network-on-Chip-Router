@@ -1,0 +1,36 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : gshare
+Version: E-2010.12-SP5-2
+Date   : Tue Apr 12 17:43:07 2016
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: prdbit_reg (rising edge-triggered flip-flop)
+  Endpoint: prdbit (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gshare             5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  prdbit_reg/CK (DFF_X1)               0.000000   0.000000 r
+  prdbit_reg/Q (DFF_X1)                0.054598   0.054598 r
+  prdbit (out)                         0.033346   0.087943 r
+  data arrival time                               0.087943
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
